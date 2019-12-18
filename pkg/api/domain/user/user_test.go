@@ -3,7 +3,7 @@ package user
 import (
 	"github.com/stretchr/testify/assert"
 	"testing"
-	"zeus/pkg/api/domain/perm"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/perm"
 )
 
 func init() {

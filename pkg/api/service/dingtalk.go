@@ -2,8 +2,8 @@ package service
 
 import (
 	dingtalk "github.com/bullteam/go-dingtalk/src"
-	"zeus/pkg/api/domain/sync/dingdingtalk"
-	"zeus/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/sync/dingdingtalk"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
 )
 
 type DingTalkService struct{}

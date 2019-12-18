@@ -5,18 +5,20 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"image/png"
+	"net/url"
+	"strconv"
+
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/account/ldap"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/service"
+	"github.com/CMLiang/zeus-admin/pkg/api/utils/mailTemplate"
+
 	"github.com/astaxie/beego/utils"
 	"github.com/dgryski/dgoogauth"
 	"github.com/gin-gonic/gin"
 	"github.com/skip2/go-qrcode"
 	"github.com/spf13/viper"
-	"image/png"
-	"net/url"
-	"strconv"
-	"zeus/pkg/api/domain/account/ldap"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/service"
-	"zeus/pkg/api/utils/mailTemplate"
 )
 
 type AccountController struct {

@@ -7,7 +7,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/spf13/viper"
-	"zeus/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
 )
 
 var (

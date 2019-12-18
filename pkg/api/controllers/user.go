@@ -6,9 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"strconv"
 	"strings"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/log"
-	"zeus/pkg/api/service"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/service"
 )
 
 var userService = service.UserService{}

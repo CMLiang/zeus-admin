@@ -3,11 +3,11 @@ package service
 import (
 	"strings"
 	"time"
-	"zeus/pkg/api/dao"
-	"zeus/pkg/api/domain/perm"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/log"
-	"zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/dao"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/perm"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 var menuDao = dao.Menu{}

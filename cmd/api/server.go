@@ -2,20 +2,21 @@ package api
 
 import (
 	"fmt"
+	"io/ioutil"
+	"os"
+	"strings"
+	"github.com/CMLiang/zeus-admin/pkg/api/dao"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/account/ldap"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/perm"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/sync/dingdingtalk"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/middleware"
+	"github.com/CMLiang/zeus-admin/pkg/api/router"
+
 	"github.com/gin-gonic/gin"
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"io/ioutil"
-	"os"
-	"strings"
-	"zeus/pkg/api/dao"
-	"zeus/pkg/api/domain/account/ldap"
-	"zeus/pkg/api/domain/perm"
-	"zeus/pkg/api/domain/sync/dingdingtalk"
-	"zeus/pkg/api/log"
-	"zeus/pkg/api/middleware"
-	"zeus/pkg/api/router"
 )
 
 var (

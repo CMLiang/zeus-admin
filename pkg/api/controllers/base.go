@@ -4,9 +4,9 @@ import (
 	"github.com/beego/i18n"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/middleware"
-	"zeus/pkg/api/service"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/middleware"
+	"github.com/CMLiang/zeus-admin/pkg/api/service"
 )
 
 type ControllerError struct {

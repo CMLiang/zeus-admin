@@ -4,11 +4,11 @@ import (
 	"github.com/pkg/errors"
 	"strconv"
 	"strings"
-	"zeus/pkg/api/dao"
-	"zeus/pkg/api/domain/role"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/log"
-	"zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/dao"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/role"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 var roleDao = dao.Role{}

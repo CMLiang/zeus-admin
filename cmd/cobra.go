@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 	"os"
-	"zeus/cmd/api"
+	"github.com/CMLiang/zeus-admin/cmd/api"
 )
 
 var rootCmd = &cobra.Command{

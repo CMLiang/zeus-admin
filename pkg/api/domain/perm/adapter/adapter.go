@@ -2,7 +2,7 @@ package adapter
 
 import (
 	"github.com/casbin/casbin/model"
-	"zeus/pkg/api/domain/perm/adapter/mysql"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/perm/adapter/mysql"
 )
 
 type Adapter interface {

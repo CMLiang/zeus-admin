@@ -1,7 +1,7 @@
 package main
 
 import (
-	"zeus/cmd"
+	"github.com/CMLiang/zeus-admin/cmd"
 )
 
 // @title Zeus 宙斯权限后台 API

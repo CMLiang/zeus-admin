@@ -2,7 +2,7 @@ package dao
 
 import (
 	"github.com/jinzhu/gorm"
-	"zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 type UserSecretDao struct {

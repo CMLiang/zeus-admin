@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"zeus/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
 )
 
 type LogController struct {

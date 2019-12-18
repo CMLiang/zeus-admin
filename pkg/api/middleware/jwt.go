@@ -8,11 +8,11 @@ import (
 	"github.com/spf13/viper"
 	"net/http"
 	"time"
-	"zeus/pkg/api/domain/account"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/log"
-	"zeus/pkg/api/model"
-	"zeus/pkg/api/service"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/account"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/service"
 )
 
 var accountService = service.UserService{}

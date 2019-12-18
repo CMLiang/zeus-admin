@@ -5,7 +5,7 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/spf13/viper"
 	"time"
-	"zeus/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
 )
 
 // Redis cache implement

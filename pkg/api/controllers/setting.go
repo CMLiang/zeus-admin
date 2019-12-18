@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/service"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/service"
 )
 
 type SettingController struct {

@@ -1,7 +1,7 @@
 package role
 
 import (
-	"zeus/pkg/api/domain/perm"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/perm"
 )
 
 // CheckPerm : check permission by role with domain

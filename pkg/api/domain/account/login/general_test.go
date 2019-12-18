@@ -3,8 +3,8 @@ package login
 import (
 	"github.com/stretchr/testify/assert"
 	"testing"
-	"zeus/pkg/api/domain/account"
-	"zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/account"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 type verifyCases struct {

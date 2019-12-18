@@ -1,7 +1,7 @@
 package user
 
 import (
-	"zeus/pkg/api/domain/perm"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/perm"
 )
 
 // Permission : where ,do what ,in which domain

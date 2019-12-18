@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
 	"strings"
-	"zeus/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
 )
 
 var currentLang string

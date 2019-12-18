@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"zeus/pkg/api/service"
+	"github.com/CMLiang/zeus-admin/pkg/api/service"
 )
 
 type SyncController struct {

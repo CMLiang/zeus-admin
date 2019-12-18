@@ -2,7 +2,7 @@ package ldap
 
 import (
 	"github.com/spf13/viper"
-	"zeus/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
 )
 
 var ldapConn LDAP_CONFIG

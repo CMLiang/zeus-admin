@@ -2,8 +2,8 @@ package dao
 
 import (
 	"fmt"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 type RoleDataPermDao struct {

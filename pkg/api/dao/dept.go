@@ -3,8 +3,8 @@ package dao
 import (
 	"fmt"
 	"github.com/jinzhu/gorm"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 type Dept struct {

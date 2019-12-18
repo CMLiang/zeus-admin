@@ -1,6 +1,6 @@
 package dao
 
-import "zeus/pkg/api/model"
+import "github.com/CMLiang/zeus-admin/pkg/api/model"
 
 type MenuPermAlias struct {
 }

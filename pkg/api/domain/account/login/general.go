@@ -1,8 +1,8 @@
 package login
 
 import (
-	"zeus/pkg/api/domain/account"
-	"zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/account"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 // VerifyPassword : verify password by salt

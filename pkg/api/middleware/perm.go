@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"
-	"zeus/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
 )
 
 // Ignored permissions

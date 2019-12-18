@@ -6,8 +6,8 @@ import (
 	"github.com/jinzhu/gorm"
 	"runtime"
 	"strings"
-	"zeus/pkg/api/dao"
-	apiModel "zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/dao"
+	apiModel "github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 // MysqlGormAdapter represents the Xorm adapter for policy storage.

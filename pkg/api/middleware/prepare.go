@@ -3,7 +3,7 @@ package middleware
 import (
 	"github.com/appleboy/gin-jwt/v2"
 	"github.com/gin-gonic/gin"
-	"zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 // JwtPrepare : parse jwt and set login session info

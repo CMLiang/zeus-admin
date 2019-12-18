@@ -6,10 +6,10 @@ import (
 	"github.com/spf13/viper"
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
-	_ "zeus/docs"
-	"zeus/pkg/api/controllers"
-	"zeus/pkg/api/domain/account"
-	"zeus/pkg/api/middleware"
+	_ "github.com/CMLiang/zeus-admin/docs"
+	"github.com/CMLiang/zeus-admin/pkg/api/controllers"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/account"
+	"github.com/CMLiang/zeus-admin/pkg/api/middleware"
 )
 
 var jwtAuth *jwt.GinJWTMiddleware

@@ -2,7 +2,7 @@ package service
 
 import (
 	"github.com/spf13/viper"
-	"zeus/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
 )
 
 type InstallService struct {

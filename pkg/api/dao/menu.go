@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/jinzhu/gorm"
 	"strings"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/model"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 type Menu struct {

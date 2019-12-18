@@ -3,8 +3,8 @@ package controllers
 import (
 	"encoding/json"
 	"github.com/gin-gonic/gin"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/service"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/service"
 )
 
 var domainService = service.DomainService{}

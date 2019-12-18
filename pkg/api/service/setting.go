@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	dingtalk "github.com/bullteam/go-dingtalk/src"
 	"github.com/spf13/viper"
-	"zeus/pkg/api/domain/dept/sync"
-	"zeus/pkg/api/dto"
-	"zeus/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/dept/sync"
+	"github.com/CMLiang/zeus-admin/pkg/api/dto"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
 
-	//"zeus/pkg/api/log"
-	"zeus/pkg/api/model"
+	//"github.com/CMLiang/zeus-admin/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/model"
 )
 
 type SettingService struct {

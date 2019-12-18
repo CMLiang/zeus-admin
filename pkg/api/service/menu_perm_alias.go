@@ -1,7 +1,7 @@
 package service
 
 import (
-	"zeus/pkg/api/dao"
+	"github.com/CMLiang/zeus-admin/pkg/api/dao"
 )
 
 var menuPermAlias = dao.MenuPermAlias{}

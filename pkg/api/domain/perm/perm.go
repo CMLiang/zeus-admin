@@ -4,8 +4,8 @@ import (
 	rediswatcher "github.com/billcobbler/casbin-redis-watcher"
 	"github.com/casbin/casbin"
 	"github.com/spf13/viper"
-	"zeus/pkg/api/domain/perm/adapter"
-	"zeus/pkg/api/log"
+	"github.com/CMLiang/zeus-admin/pkg/api/domain/perm/adapter"
+	"github.com/CMLiang/zeus-admin/pkg/api/log"
 )
 
 var (
