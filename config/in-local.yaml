@@ -31,9 +31,9 @@ database:
   driver: mysql
   mysql:
     charset: utf8
-    host: 127.0.0.1:3306
+    host: 47.106.183.249:3501
     name: zeus
-    password: root
+    password: test456978
     pool:
       max: 20
       min: 5
@@ -81,7 +81,7 @@ ldap:
   userdn: cn=admin,dc=bullteam,dc=com
 mode: debug
 project:
-  merge: true
+  merge: false
 redis:
   host: 127.0.0.1:6379
   pool:
