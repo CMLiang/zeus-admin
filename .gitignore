@@ -22,3 +22,4 @@ pkg/webui/dist/
 data/
 config/in-local.yaml
 build/
+Inner.md
