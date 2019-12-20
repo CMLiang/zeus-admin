@@ -31,7 +31,7 @@
 
 > 前后统一访问入口部署(前后统一)
 ````
-git clone git@github.com:bullteam/zeus-admin.git
+git clone http://gitlab.lingeyun.com/lyb/zeus-admin.git
 export GOPROXY=https://goproxy.cn
 export GO111MODULE=on
 #后端编译
@@ -58,7 +58,7 @@ export REDIS_PASSWORD=""
 > 前后不同入口部署(前后分离)
 
 ````
-git clone git@github.com:bullteam/zeus-admin.git
+git clone http://gitlab.lingeyun.com/lyb/zeus-admin.git
 export GOPROXY=https://goproxy.cn
 export GO111MODULE=on
 #后端编译
